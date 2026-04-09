@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1775738194 source:c:\ecen_a_c_programs_!%_)^_@%\50_digits_cnt\3_axis accelerometer emulator\main.c
+	<stdio.h>
+	<stdint.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+
