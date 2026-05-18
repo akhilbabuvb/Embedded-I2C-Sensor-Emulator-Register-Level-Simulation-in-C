@@ -1,6 +1,6 @@
 # Embedded-I2C-Sensor-Emulator-Register-Level-Simulation-in-C
 
-This project simulates an IMU sensor (accelerometer) similar to the **LSM6DSL** using C.  
+This project simulates an IMU sensor (accelerometer) similar to the behavior of **LSM6DSL/LIS2DE12** using C.  
 It includes a virtual register map, an I2C protocol emulator, and a simple driver to read sensor data.  
 The main goal is to understand how **firmware interacts with hardware at register-level**.
 
@@ -53,7 +53,7 @@ This separation improves modularity and reflects production-quality embedded des
 
 ---
 
-## ⚙️ Register Map (Reference: LSM6DSL Datasheet)
+## ⚙️ Register Map (Reference: LSM6DSL and LIS2DE12 Datasheets)
 
 | Register     | Address | Description           |
 |--------------|--------|---------------------|
